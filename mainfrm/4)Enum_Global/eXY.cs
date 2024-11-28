@@ -1,0 +1,39 @@
+﻿namespace mainfrm
+{
+    public enum eX
+    {
+        LoadCylOff,
+        LoadCylOn,
+        WorkCylUp,
+        WorkCylDown,
+        MoveCylOff,
+        MoveCylOn,
+        UldCylOff,
+        UldCylOn,
+        PickCylUp,
+        PickCylDown,
+        VacOn1,
+        VacOn2,
+        LoadSensor,
+        sen2,
+        sen3,
+        sen4,
+        UldSensor
+    }
+    public enum eY
+    {
+        LoadCylOn,
+        LoadCylOff,
+        WorkCylOn,
+        MoveCylOn,
+        UldCylOn,
+        PickCylOn,
+        VacOn,
+        VacOff,
+        DrillOn,
+        ConveyOn,
+        LampRedOn,
+        LampYelOn,
+        LampGreenOn,
+    }
+}
